@@ -1,0 +1,35 @@
+/* Home.css */
+
+.bg-dark {
+    background-color: #333 !important;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.blockquote {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+.blockquote-footer {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.carousel-item {
+    padding: 80px;
+}
+
+
+  .feature-icon img {
+    width: 100%;  /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-radius: 50%;
+  }
+    

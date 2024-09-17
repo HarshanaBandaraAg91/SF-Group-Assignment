@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import NavigationBar from './components/Navbar'; // Import Navbar
+import Footer from './components/Footer'; // Import Footer
+import Home from './pages/Home'; // Home page component
+import Login from './pages/Login'; // Login page component
+import Signup from './pages/Signup'; // Signup page component
+import AboutUs from './pages/AboutUs'; // About Us page component
+import Contact from './pages/Contact'; // Contact Us page component
+import Booking from './pages/Booking'; // Booking page component
+import NotFound from './pages/NotFound'; // 404 page component
+import Flights from './pages/Flights';
+import AdminPage from './pages/AdmpinPage';
+import ProfilePage from './pages/ProfilePage';
+import Checkout from './pages/Checkout';
+import Confirmation from './pages/Confirmation';
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="d-flex flex-column min-vh-100">
+      {/* Navbar */}
+      <NavigationBar />
+      
+      {/* Main Content */}
+      <main className="flex-grow-1">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/flights" element={<Flights />} /> 
+          <Route path="/admin" element={<AdminPage />} /> 
+          <Route path="/Profile" element={<ProfilePage />} /> 
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/confirmation" element={<Confirmation />} />
+        </Routes>
+      </main>
 
-export default App
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
