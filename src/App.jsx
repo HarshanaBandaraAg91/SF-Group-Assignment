@@ -15,7 +15,7 @@ import AdminPage from './pages/AdmpinPage';
 import ProfilePage from './pages/ProfilePage';
 import Checkout from './pages/Checkout';
 import Confirmation from './pages/Confirmation';
-
+import Hotels from './pages/Hotel';
 
 const App = () => {
   return (
@@ -38,6 +38,8 @@ const App = () => {
           <Route path="/Profile" element={<ProfilePage />} /> 
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/confirmation" element={<Confirmation />} />
+          <Route path="/hotels" element={<Hotels />} />
+
         </Routes>
       </main>
 

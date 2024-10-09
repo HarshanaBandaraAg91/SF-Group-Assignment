@@ -31,21 +31,21 @@ const Home = () => {
           <Row className="text-center">
             <Col md={4} className="mb-4">
               <div className="feature-icon mb-3" >
-                <img  src="./src/assets/n1.png" alt="Easy Booking" style={{ width: '60px' }} />
+                <img  src="./src/assets/booking.png" alt="Easy Booking" style={{ width: '60px' }} />
               </div>
               <h3>Easy Booking</h3>
               <p>Book your flights in just a few clicks with our user-friendly interface.</p>
             </Col>
             <Col md={4} className="mb-4">
               <div className="feature-icon mb-3">
-                <img src="./src/assets/n1.png" alt="Real-time Updates" style={{ width: '60px' }} />
+                <img src="./src/assets/circular-arrow.png" alt="Real-time Updates" style={{ width: '60px' }} />
               </div>
               <h3>Real-time Updates</h3>
               <p>Stay informed with real-time updates on flight statuses and gate changes.</p>
             </Col>
             <Col md={4} className="mb-4">
               <div className="feature-icon mb-3">
-                <img src="./src/assets/n1.png" alt="24/7 Support" style={{ width: '60px' }} />
+                <img src="./src/assets/24-7-service.png" alt="24/7 Support" style={{ width: '60px' }} />
               </div>
               <h3>24/7 Support</h3>
               <p>Our customer support team is available around the clock to assist you.</p>
@@ -77,7 +77,7 @@ const Home = () => {
         <Row>
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="./src/assets/n2.png" />
+              <Card.Img variant="top" src="./src/assets/Exclusive Deals.png" />
               <Card.Body>
                 <Card.Title>Exclusive Deals</Card.Title>
                 <Card.Text>
@@ -89,7 +89,7 @@ const Home = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="./src/assets/n2.png" />
+              <Card.Img variant="top" src="./src/assets/Top Destinations.png" />
               <Card.Body>
                 <Card.Title>Top Destinations</Card.Title>
                 <Card.Text>
@@ -101,7 +101,7 @@ const Home = () => {
           </Col>
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="./src/assets/n2.png" />
+              <Card.Img variant="top" src="./src/assets/Travel Tips.png" />
               <Card.Body>
                 <Card.Title>Travel Tips</Card.Title>
                 <Card.Text>
@@ -122,19 +122,19 @@ const Home = () => {
             <Carousel.Item>
               <blockquote className="blockquote">
                 <p>"FlightBooker made my travel plans so much easier! The booking process was smooth, and the customer support was excellent."</p>
-                <footer className="blockquote-footer">Sarah W.</footer>
+                <footer className="blockquote-footer">Sharad.</footer>
               </blockquote>
             </Carousel.Item>
             <Carousel.Item>
               <blockquote className="blockquote">
                 <p>"I love the real-time updates and the exclusive deals. I always find the best prices here!"</p>
-                <footer className="blockquote-footer">John D.</footer>
+                <footer className="blockquote-footer">Ajith Kabral.</footer>
               </blockquote>
             </Carousel.Item>
             <Carousel.Item>
               <blockquote className="blockquote">
                 <p>"Great experience! The website is user-friendly, and the support team is very responsive."</p>
-                <footer className="blockquote-footer">Emma L.</footer>
+                <footer className="blockquote-footer">Smith.</footer>
               </blockquote>
             </Carousel.Item>
           </Carousel>
@@ -143,6 +143,7 @@ const Home = () => {
 
       {/* Additional Information Section */}
       <Container className="text-center my-5 px-4">
+      <a href="/hotels"><img src="./src/assets/Orange Aesthetic Travel Banner (Landscape).png"/></a>
         <p>For more information, visit our <a href="/info">Information Page</a> or contact us for personalized support.</p>
       </Container>
     </div>

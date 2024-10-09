@@ -4,68 +4,68 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Importing icons from r
 
 const developers = [
   {
-    name: 'Amal Nimal',
+    name: 'Rumesha Harshan',
     role: 'Frontend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
+    img: './src/assets/rumesh.jpg', // Reduced image size
     description: 'Specializes in React and modern web design.',
-    linkedin: 'https://www.linkedin.com/in/amal-nimal',
-    github: 'https://github.com/amal-nimal'
+    linkedin: 'https://www.linkedin.com/in/g-rumesha-harshan-b85409258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    github: 'https://github.com/grHarshan '
   },
   {
-    name: 'Amal Nimal',
+    name: 'Hasith Ferando',
     role: 'Frontend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
+    img: './src/assets/hasith.jpg', // Reduced image size
     description: 'Specializes in React and modern web design.',
-    linkedin: 'https://www.linkedin.com/in/amal-nimal',
-    github: 'https://github.com/amal-nimal'
+    linkedin: 'https://www.linkedin.com/in/hasith-fernando-23a00b286',
+    github: 'https://github.com/HasithFernando'
   },
   {
-    name: 'Amal Nimal',
+    name: 'Harshana Bandara',
     role: 'Frontend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
+    img: './src/assets/harshana.png', // Reduced image size
     description: 'Specializes in React and modern web design.',
-    linkedin: 'https://www.linkedin.com/in/amal-nimal',
-    github: 'https://github.com/amal-nimal'
+    linkedin: 'https://www.linkedin.com/in/harshana-bandara-991821258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    github: 'https://github.com/HarshanaBandaraAg91'
   },
   {
-    name: 'Amal Nimal',
+    name: 'Manuka Dandeniya',
     role: 'Frontend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
+    img: './src/assets/manuka.jpg', // Reduced image size
     description: 'Specializes in React and modern web design.',
-    linkedin: 'https://www.linkedin.com/in/amal-nimal',
-    github: 'https://github.com/amal-nimal'
+    linkedin: 'https://www.linkedin.com/in/manuka-dandeniya-b28630275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    github: 'https://github.com/Manuka27'
   },
   {
-    name: 'Amal Nimal',
-    role: 'Frontend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
-    description: 'Specializes in React and modern web design.',
-    linkedin: 'https://www.linkedin.com/in/amal-nimal',
-    github: 'https://github.com/amal-nimal'
-  },
-  {
-    name: 'Samira Khan',
-    role: 'UI/UX Designer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
-    description: 'Expert in UI/UX design and user research.',
-    linkedin: 'https://www.linkedin.com/in/samira-khan',
-    github: 'https://github.com/samira-khan'
-  },
-  {
-    name: 'Alex Smith',
+    name: 'Dinesh Pethiyagoda',
     role: 'Backend Developer',
-    img: 'https://via.placeholder.com/120', // Reduced image size
-    description: 'Specializes in server-side logic and database management.',
-    linkedin: 'https://www.linkedin.com/in/alex-smith',
-    github: 'https://github.com/alex-smith'
+    img: './src/assets/dinesh.jpg', // Reduced image size
+    description: 'Specializes in Java , C# and modern web design.',
+    linkedin: 'https://www.linkedin.com/in/dinesh-pethiyagoda-084710252/',
+    github: 'https://github.com/AkalankaDinesh'
   },
   {
-    name: 'Jamie Lee',
+    name: 'Tharuka Thilakarathna',
+    role: 'UI/UX Designer',
+    img: './src/assets/tharuka.jpg', // Reduced image size
+    description: 'Expert in UI/UX design and user research.',
+    linkedin: 'https://www.linkedin.com/in/tharuka-thilakarathna-065633249?trk=contact-info',
+    github: 'https://github.com/thilakarathnaMTM'
+  },
+  {
+    name: 'Sheshani Senevirathna',
+    role: 'Backend Developer',
+    img: './src/assets/shehani.jpg', // Reduced image size
+    description: 'Specializes in server-side logic and database management.',
+    linkedin: 'https://www.linkedin.com/in/sheshani-wimarshana-849b76256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    github: 'https://github.com/SheshaniWimarshana'
+  },
+  {
+    name: 'Erandhi Rodrigo',
     role: 'Project Manager',
-    img: 'https://via.placeholder.com/120', // Reduced image size
+    img: './src/assets/erandi.jpg', // Reduced image size
     description: 'Leads projects and ensures timely delivery.',
-    linkedin: 'https://www.linkedin.com/in/jamie-lee',
-    github: 'https://github.com/jamie-lee'
+    linkedin: 'https://www.linkedin.com/in/erandi-harshani-b8773a302/',
+    github: 'https://github.com/ErandiHarshani'
   }
   // Add more team members as needed
 ];
