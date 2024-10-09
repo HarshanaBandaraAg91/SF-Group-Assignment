@@ -64,7 +64,7 @@ const developers = [
     role: 'Project Manager',
     img: './src/assets/erandi.jpg', // Reduced image size
     description: 'Leads projects and ensures timely delivery.',
-    linkedin: 'https://www.linkedin.com/in/erandi-harshani-b8773a302/',
+    linkedin: 'http://www.linkedin.com/in/erandi-harshani-b8773a302',
     github: 'https://github.com/ErandiHarshani'
   }
   // Add more team members as needed
